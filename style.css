@@ -16,6 +16,7 @@ html {
     scroll-behavior: smooth;
     margin: 0;
     padding: 0;
+    width: 100%;
 
 }
 
@@ -137,7 +138,6 @@ h5 {
 .menu {
     border: 5px solid linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
     background-color: #000;
-    position: sticky;
     padding: 20px;
     border-radius: 10px;
     text-align: center;
@@ -172,6 +172,10 @@ h5 {
 
 .menu a:hover {
     background: rgba(0, 212, 255, 1) 100%;
+}
+
+.right-full {
+    width: 100%;
 }
 
 .right {
@@ -210,7 +214,6 @@ h5 {
 }
 
 .content-section {
-    position: sticky;
     top: 0;
     padding: 0px;
     margin-left: 280px;
@@ -231,7 +234,7 @@ h5 {
     min-height: 100vh;
 }
 
-.skill {
+#skill {
     height: 100vh;
 }
 
@@ -296,17 +299,23 @@ h5 {
     font-size: 1.2em;
 }
 
+.skills-cont {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+    height: auto;
+}
+
 .content-box {
-    width: 500px;
-    height: 250px;
+    width: 30%;
     background: #fff;
     border: 2px solid #0077b6;
     border-radius: 10px;
     box-shadow: 4px 4px 4px 8px rgba(12, 172, 216, 0.9);
-    margin: 20px 10px 10px 40px;
+    margin: 5px;
     padding: 10px;
     text-align: center;
-    border-radius: 15px;
     display: inline-block;
 }
 
@@ -340,17 +349,18 @@ h5 {
 .edu-container {
     display: flex;
     justify-content: space-between;
-    gap: 20px;
-    width: 1200px;
+    flex-wrap: wrap;
+    gap: 50px;
     height: auto;
 }
 
 .edu-content {
-    width: 30%;
+    width: 20%;
+    height: auto;
     box-shadow: 4px 4px 4px 8px rgba(12, 172, 216, 0.9);
     color: black;
-    padding: 20px;
-    margin: 150px 0 0 10px;
+    padding: 10px;
+    margin: 5px;
     text-align: center;
     justify-content: center;
 }
@@ -397,16 +407,19 @@ h5 {
 }
 
 #skills {
-    max-width: 800px;
     margin: 20px auto;
     background-color: #fff;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    flex-wrap: wrap;
+    gap: 10%;
+
 }
 
 .ski {
     margin-bottom: 20px;
+
 }
 
 .progress-bar {
