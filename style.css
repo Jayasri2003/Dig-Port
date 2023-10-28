@@ -473,7 +473,302 @@ h5 {
     display: none;
 }
 
-@media (max-width: 320px) {
+
+
+@media (min-width:321px) and (max-width:520px) {
+
+    .container {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        text-align: center;
+        display: block;
+        position: static;
+        border: none;
+        background: none;
+        margin-left: 0;
+    }
+
+    .profile-card {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        margin: 0;
+        border-radius: 0;
+    }
+
+    .right-container {
+        margin: 0;
+        padding: 20px;
+        max-width: 100%;
+        max-height: 100vh;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .right {
+        margin: 0;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
+
+    .right h1 {
+        font-size: 60px;
+    }
+
+    .right h4 {
+        font-size: 40px;
+    }
+
+    .right p {
+        margin: 0;
+        padding: 10px 0;
+        font-size: 20px;
+    }
+
+    .content-section {
+        margin: 0;
+        padding: 10px;
+    }
+
+    #about {
+        max-width: 100%;
+        max-height: 100vh;
+    }
+
+    .about-content {
+        max-width: 100%;
+        font-size: 0.4em;
+        margin: 10px;
+        padding: 10px;
+        color: #000;
+
+    }
+
+    .skills-cont {
+        display: block;
+    }
+
+    .content-box {
+        width: 100%;
+    }
+
+    .progress-bar {
+        height: 10px;
+    }
+
+    .progress {
+        transition: width 1s;
+    }
+
+    .percentage-text {
+        font-size: 10px;
+    }
+
+    .edu-container {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .edu-content {
+        width: 100%;
+        font-size: 0.6em;
+    }
+
+    .content-box {
+        font-size: 0.7em;
+    }
+
+    .content-box img {
+        width: 50px;
+        height: auto;
+    }
+
+    .skills-cont {
+        margin: 0;
+        width: 100%;
+    }
+
+    .con {
+        font-size: 0.6em;
+    }
+
+    .content-box {
+        width: 90%;
+    }
+
+    .container {
+        width: 80%;
+    }
+
+    .about-content {
+        font-size: 0.6em;
+    }
+
+    .contact-container {
+        width: 80%;
+    }
+
+    .contact-item p {
+        font-size: 2em;
+    }
+
+    /* .content-section.contact {
+        margin-top: 9000px;
+    } */
+}
+
+@media (min-width:100px) and (max-width:319px) {
+    .container {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        text-align: center;
+        display: block;
+        position: static;
+        border: none;
+        background: none;
+    }
+
+    .profile-card {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        margin: 0;
+        border-radius: 0;
+    }
+
+    .right-container {
+        margin: 0;
+        padding: 20px;
+        max-width: 100%;
+        max-height: 100vh;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .right {
+        margin: 0;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
+
+    .right h1 {
+        font-size: 20px;
+    }
+
+    .right h4 {
+        font-size: 10px;
+    }
+
+    .right p {
+        margin: 0;
+        padding: 10px 0;
+        font-size: 5px;
+    }
+
+    .content-section {
+        margin: 0;
+        padding: 10px;
+    }
+
+    #about {
+        max-width: 100%;
+        max-height: 100vh;
+    }
+
+    .about-content {
+        max-width: 100%;
+        font-size: 0.1em;
+        margin: 1px;
+        padding: 1px;
+        color: #000;
+
+    }
+
+    .skills-cont {
+        display: block;
+    }
+
+    .content-box {
+        width: 100%;
+    }
+
+    .progress-bar {
+        height: 10px;
+    }
+
+    .progress {
+        transition: width 1s;
+    }
+
+    .percentage-text {
+        font-size: 10px;
+    }
+
+    .edu-container {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .edu-content {
+        width: 100%;
+        font-size: 0.5em;
+    }
+
+    .content-box {
+        font-size: 0.7em;
+    }
+
+    .content-box img {
+        width: 50px;
+        height: auto;
+    }
+
+    .skills-cont {
+        margin: 0;
+        width: 80%;
+    }
+
+    .con {
+        font-size: 0.1em;
+    }
+
+    .content-box {
+        width: 90%;
+    }
+
+    .container {
+        width: 80%;
+    }
+
+    .about-content {
+        font-size: 0.1em;
+    }
+
+    .contact-container {
+        width: 80%;
+    }
+
+    .contact-item p {
+        font-size: 0.1em;
+        align-items: left;
+    }
+
+
+}
+
+@media (max-width:320px) {
     .container {
         width: 100%;
         height: auto;
@@ -538,7 +833,7 @@ h5 {
 
     .about-content {
         max-width: 100%;
-        font-size: 0.62em;
+        font-size: 0.5em;
         margin: 20px;
         color: #000;
 
@@ -677,7 +972,7 @@ h5 {
     }
 }
 
-@media (min-width: 320px) and (max-width: 920px) {
+@media (max-width: 1023px) {
     .whole {
         width: 100%;
         height: auto;
@@ -728,26 +1023,8 @@ h5 {
         height: auto;
     }
 
-    .right h1 {
-        font-size: 90px;
-    }
-
-    .right h4 {
-        font-size: 50px;
-    }
-
-    .right p {
-        margin: 0;
-        padding: 20px 0;
-        font-size: 30px;
-    }
-
     .container {
         width: 100%;
-    }
-
-    .content {
-        font-size: 1.5rem;
     }
 
     .content-section {
@@ -758,14 +1035,6 @@ h5 {
     #about {
         max-width: 100%;
         max-height: 100vh;
-    }
-
-    .about-content {
-        max-width: 100%;
-        font-size: 0.62em;
-        margin: 20px;
-        color: #000;
-
     }
 
     .skills-cont {
@@ -784,10 +1053,6 @@ h5 {
         transition: width 1s;
     }
 
-    .percentage-text {
-        font-size: 12px;
-    }
-
     .edu-container {
         justify-content: center;
         flex-wrap: wrap;
@@ -798,11 +1063,6 @@ h5 {
         width: 100%;
     }
 
-    .con {
-        font-size: 0.5em;
-
-    }
-
     .content-box {
         width: 90%;
     }
@@ -811,26 +1071,13 @@ h5 {
         width: 80%;
     }
 
-    .about-content {
-        font-size: normal;
-    }
-
-    .contact-container {
-        width: 80%;
-    }
-
-    .contact-item p {
-        font-size: 0.6rem;
-        align-items: left;
-    }
-
     .content-section.contact {
         margin-top: 700px;
     }
 
 }
 
-@media screen and (max-width: 920px) {
+@media screen and (max-width: 768px) {
     .menu {
         display: none;
     }
@@ -840,7 +1087,7 @@ h5 {
     }
 }
 
-@media screen and (max-width: 920px) {
+@media screen and (max-width: 768px) {
     .menu {
         display: none;
     }
@@ -883,5 +1130,77 @@ h5 {
 
     .menu-expanded:target ul {
         display: block;
+    }
+}
+
+@media (min-width:2500px) and (max-width: 3000px) {
+    .whole {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        text-align: center;
+        display: block;
+        position: static;
+        border: none;
+        background: none;
+    }
+
+    .contact-info {
+        margin-top: 100px;
+    }
+
+    .edu-content {
+        width: 100%;
+    }
+
+    .content-box {
+        width: 100%;
+    }
+
+    .content-section.contact {
+        margin-top: 300px;
+    }
+
+    .content-section.edu {
+        margin-top: 0;
+    }
+
+    .menu {
+        max-width: calc(100vw - 110px);
+        margin-left: 25px;
+    }
+
+    .menu li {
+        font-size: 50px;
+        padding: 10px;
+        margin: 50px;
+    }
+
+    .right h1 {
+        font-size: 10em;
+    }
+
+    .right h4 {
+        font-size: 6em;
+    }
+
+    .right p {
+        font-size: 3em;
+    }
+
+    .container {
+        font-size: 0.8em;
+    }
+
+    .content {
+        font-size: 2em;
+    }
+
+    .intro {
+        font-size: 2em;
+    }
+
+    .contact-item p {
+        font-size: 1em;
     }
 }
