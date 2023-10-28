@@ -1058,7 +1058,7 @@ h5 {
 
 }
 
-@media (max-width: 1366px) and (max-height: 768px) {
+@media (min-width: 1366px) and (max-width:1920px) {
 
     .whole {
         width: 100%;
@@ -1072,19 +1072,7 @@ h5 {
     }
 }
 
-@media (min-width: 1920px) and (min-height: 1080px) {
-    .whole {
-        width: 100%;
-        padding: 20px;
-        text-align: center;
-        display: block;
-        position: static;
-        border: none;
-        background: none;
-    }
-}
-
-@media (max-width: 768px) and (max-height: 1024px) {
+@media (max-width: 768px) {
     .whole {
         width: 100%;
         height: auto;
@@ -1129,7 +1117,8 @@ h5 {
     }
 }
 
-@media (max-width: 950px) {
+
+@media (max-width: 919px) {
     .whole {
         width: 100%;
         height: auto;
@@ -1234,17 +1223,7 @@ h5 {
 
 }
 
-@media screen and (max-width: 768px) {
-    .menu {
-        display: none;
-    }
-
-    .menu-icon {
-        display: block;
-    }
-}
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 920px) {
     .menu {
         display: none;
     }
