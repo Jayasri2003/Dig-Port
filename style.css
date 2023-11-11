@@ -145,6 +145,7 @@ h5 {
     position: absolute;
     top: 5px;
     left: 310px;
+
     max-width: calc(100vw - 310px);
     right: 10px;
     box-sizing: border-box;
@@ -1337,5 +1338,89 @@ h5 {
 
     .contact-item p {
         font-size: 1em;
+    }
+}
+
+
+@media (min-width:921px) and (max-width:1040px) {
+    .whole {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        text-align: center;
+        display: block;
+        position: static;
+        border: none;
+        background: none;
+    }
+
+    .contact-info {
+        font-size: 0.8rem;
+    }
+
+    .intro h2,
+    h4 {
+        font-size: 15px;
+    }
+
+    .intro i {
+        font-size: 20px;
+    }
+
+    .contact-info row {
+        margin-top: 0;
+    }
+
+    .edu-content {
+        width: 100%;
+    }
+
+    .content-box {
+        width: 100%;
+    }
+
+    .content-section.contact {
+        margin-top: 650px;
+    }
+
+    .content-section.edu {
+        margin-top: 0;
+    }
+
+    .menu {
+        padding: 10px;
+        margin-top: 20px;
+    }
+
+    .menu li {
+        font-size: 10px;
+    }
+
+    .right h1 {
+        font-size: 6em;
+    }
+
+    .right h4 {
+        font-size: 3em;
+    }
+
+    .right p {
+        font-size: 1em;
+    }
+
+    .container {
+        font-size: 0.4em;
+    }
+
+    .content {
+        font-size: 1em;
+    }
+
+    .intro {
+        font-size: 1em;
+    }
+
+    .contact-item p {
+        font-size: 0.8em;
     }
 }
